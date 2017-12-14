@@ -3,4 +3,8 @@
 # Choose vim as the main editor.
 export EDITOR="vim"
 
-# TODO: Entry point for git status prompt etc
+# MagicMonty's BASH-GIT-PROMPT
+GIT_PROMPT_ONLY_IN_REPO=1
+[ -a ~/.bash-git-prompt/gitprompt.sh ] && source ~/.bash-git-prompt/gitprompt.sh || {
+    echo "dotfiles: You need to init/update dotfile's submodules to pull bash-git-prompt"
+}
