@@ -97,6 +97,7 @@ function __CONFIGCMD() {
 }
 
 do_it() {
+    clear
     echo ""
     echo "#############################"
     echo "# Installer for .mydotfiles #"
