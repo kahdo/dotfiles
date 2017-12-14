@@ -1,3 +1,6 @@
 #!/bin/bash
 
+# Choose vim as the main editor.
+export EDITOR="vim"
+
 # TODO: Entry point for git status prompt etc
